@@ -1,0 +1,33 @@
+html {
+  font-size: 18px;
+  background-color: white;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  line-height: 1.4em;
+}
+
+.banner .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  color: white;
+}
+
+.banner {
+  background-color: black;
+  width: auto;
+  height: 2.32rem;
+}
+
+.banner img {
+  height: 1.5rem;
+}
+
+.banner span {
+  font-size: 1rem;
+}
