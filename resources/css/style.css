@@ -142,8 +142,84 @@ footer {
   margin-top: 4em;
 }
 
+@media only screen and (min-width: 1024px) {
+  .mobilenav {
+    display: none;
+  }
+}
+
+
 /*tablet in landscape mode*/
 
 @media only screen and (max-width: 1024px) {
 
+  body {
+    font-size: 16px;
+  }
+
+  .product.glasses {
+    display: none;
+  }
+
+  .product {
+    width: 47%;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  .mobilenav {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+
+  .newarrival {
+    height: 15rem;
+  }
+
+  .newarrivaltext {
+    padding: 1rem 2rem;
+    width: auto;
+    top: 10em;
+    height: 3.5rem;
+  }
+
+  .newarrivaltext h1 {
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  .newarrivaltext h4 {
+    font-size: .77rem;
+    margin: 0 0 .75rem 0;
+  }
+
+  .products {
+    justify-content: center;
+  }
+
+  .product.watch {
+    display: none;
+  }
+
+  .product {
+    width: 90%;
+  }
+
+  .business-info {
+    flex-wrap: wrap;
+  }
+
+  .info {
+    margin: .5em auto;
+    width: 90%;
+  }
+
+  footer {
+    text-align: center;
+  }
 }
